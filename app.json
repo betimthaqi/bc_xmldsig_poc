@@ -1,0 +1,27 @@
+{
+  "id": "062d8637-f966-43a6-8d29-b91981463051",
+  "name": "Albanian Fiscalization Signing POC",
+  "publisher": "Betim Thaci",
+  "version": "1.0.0.1",
+  "brief": "Proof of concept for Albanian fiscalization XML signing in Business Central AL.",
+  "description": "Experimental Business Central AL implementation for generating Albanian fiscalization XML requests, creating IIC and IIC signatures, applying XML Digital Signatures using a fiscal certificate, and sending signed SOAP requests directly from Business Central.",
+  "dependencies": [],
+  "platform": "28.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": false,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "12.0",
+  "features": [
+    "NoImplicitWith"
+  ],
+  "target": "OnPrem"
+}
